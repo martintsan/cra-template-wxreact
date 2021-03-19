@@ -1,13 +1,31 @@
 {
   "name": "cra-template-wxreact",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "author": "Martin Tsan <martintsan@pm.me>",
+  "engines": {
+    "node": ">=10"
+  },
+  "main": "template.json",
+  "description": "This is a structured React template with Redux, TypeScript, LESS, ESLint, styledComponents, CRACO etc.",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "cra-template",
+    "template",
+    "typescript"
+  ],
+  "files": [
+    "template",
+    "template.json"
+  ],
   "dependencies": {
+    "@craco/craco": "^6.1.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
+    "@types/jest": "^26.0.21",
+    "@types/node": "^14.14.35",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "react": "^17.0.1",
